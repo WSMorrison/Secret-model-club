@@ -19,8 +19,8 @@ html {
     color: rgb(105, 103,101); /*main color dark*/
     color: rgb(175,173,172); /*main color medium*/
     color: rgb(235,234,234); /*main color light*/
-    color: rgb(192, 53, 47); /*logo color*/
-    color: rgb(197, 164, 131); /*third color*/
+    color: rgb(192, 53, 47); /*logo color dark*/
+    color: rgb(197, 164, 131); /*logo color light*/
     color: rgb(247, 245, 243); /*text color light*/
     color: rgb(37, 31, 24); /*text color dark*/
     color: rgb(57, 170, 173); /*accent color*/
@@ -34,11 +34,30 @@ body {
     color: Blue; 
 }
 
+a:hover {
+    color: rgb(var(--logo-color-dark));
+}
+
 #header {
     width: 100vw;
     height: 7.5rem;
     background-color: rgb(var(--main-color-dark));
     color: rgb(var(--text-color-light));
+    display: flex;
+    justify-content: center;
+}
+
+#nav-container {
+    width: 85vw;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    color: rgb(var(--text-color));
+    text-decoration: none;
 }
 
 #splash {
@@ -74,4 +93,25 @@ body {
     height: 7.5rem;
     background-color: rgb(var(--main-color-dark));
     color: rgb(var(--text-color-light));
+    display: flex;
+    justify-content: center;
+}
+
+#no-socials {
+    width: 100vw;
+    height: calc(100vh - 15rem);
+    background-color: rgb(var(--main-color-medium));
+}
+
+#socials-container {
+    width: 50vw;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials-links {
+    color: rgb(var(--text-color));
+    text-decoration: none;
 }
