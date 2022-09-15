@@ -47,7 +47,7 @@ a:hover {
     justify-content: center;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 #nav-container {
@@ -131,13 +131,27 @@ a:hover {
     height: 30rem;
     background-color: rgba(0, 255, 34, 0.2); /*diagnostic -------------------------------------------------------------------*/
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.online-img-container {
+    width: 25rem;
+    height: 25rem;
 }
 
 .online-img {
     width: 25rem;
     height: 25rem;
+}
+
+.online-img-cover {
+    width: 25rem;
+    height: 25rem;
+    background-color: rgba(138, 43, 226, 0.2); /*diagnostic -----------------------------------------------------------------*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 5;
 }
 
 #one-to-one-sect {
