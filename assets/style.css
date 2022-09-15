@@ -88,7 +88,7 @@ a:hover {
 #splash-logo {
     width: 17rem;
     height: 10rem;
-    background-color: rgba(var(--main-color-dark), 0.5);
+    background-color: rgba(var(--main-color-dark), 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,16 +142,47 @@ a:hover {
 .online-img {
     width: 25rem;
     height: 25rem;
+    position: relative;
 }
 
 .online-img-cover {
-    width: 25rem;
+    width: 90vw;
     height: 25rem;
-    background-color: rgba(138, 43, 226, 0.2); /*diagnostic -----------------------------------------------------------------*/
+    /*background-color: rgba(226, 43, 67, 0.5); diagnostic -----------------------------------------------------------------*/
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.online-title {
+    width: 20rem;
+    height: 5rem;
+    background-color: rgba(var(--main-color-dark), 0.8);
     z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-title > h3 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.online-text {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgba(var(--main-color-dark), 0.8);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-text > p {
+    text-align: center;
 }
 
 #one-to-one-sect {
