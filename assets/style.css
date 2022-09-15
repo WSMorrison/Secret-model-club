@@ -45,6 +45,9 @@ a:hover {
     color: rgb(var(--text-color-light));
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 #nav-container {
@@ -60,14 +63,60 @@ a:hover {
     text-decoration: none;
 }
 
-#splash {
+#splash-sect {
+    position: relative;
+    top: 6.5rem;
     width: 100vw;
     height: 30rem;
     background-color: rgb(var(--main-color-medium));
     color: rgb(var(--text-color-light));
+    background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#splash-cover {
+    width: 90vw;
+    height: calc(30rem * 0.90);
+    /*background-color:rgba(0, 255, 255, 0.2); diagnostic ----------------------------------------------------------------------*/
+    display: flex;
+    flex-direction: column;
+}
+
+#splash-logo {
+    width: 17rem;
+    height: 10rem;
+    background-color: rgba(var(--main-color-dark), 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skrt-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(var(--logo-color-dark));
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 5rem;
+    /*background-color: rgba(0, 17, 255, 0.2); diagnostic ----------------------------------------------------------------------*/
+}
+
+#modl-klub-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(var(--logo-color-dark));
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 2rem;
+    /*background-color: rgba(0, 255, 34, 0.2); diagnostic ----------------------------------------------------------------------*/
 }
 
 #online-sect {
+    position: relative;
+    top: 4.8rem;
     width: 100vw;
     height: 30rem;
     background-color: rgb(var(--main-color-medium));
@@ -75,6 +124,8 @@ a:hover {
 }
 
 #one-to-one-sect {
+    position: relative;
+    top: 3.2rem;
     width: 100vw;
     height: 30rem;
     background-color: rgb(var(--main-color-light));
@@ -82,6 +133,8 @@ a:hover {
 }
 
 #trans-sect {
+    position: relative;
+    top: 1.6rem;
     width: 100vw;
     height: 30rem;
     background-color: rgb(var(--main-color-medium));
@@ -89,6 +142,8 @@ a:hover {
 }
 
 #footer {
+    position: relative;
+    top: 1.6rem;
     width: 100vw;
     height: 7.5rem;
     background-color: rgb(var(--main-color-dark));
