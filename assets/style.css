@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Rubik+Dirt&display=swap");
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --main-color-dark: 105, 103, 101;
+    --main-color-medium: 175, 173, 172;
+    --main-color-light: 235, 234, 234;
+    --logo-color-dark: 192, 53, 47;
+    --logo-color-light: 197, 164, 131;
+    --text-color-light: 247, 245, 243;
+    --text-color-dark: 37, 31, 24;
+    --accent-color: 57, 170, 173;
+}
+
+.text-color-test-area {
+    color: rgb(105, 103,101); /*main color dark*/
+    color: rgb(175,173,172); /*main color medium*/
+    color: rgb(235,234,234); /*main color light*/
+    color: rgb(192, 53, 47); /*logo color*/
+    color: rgb(197, 164, 131); /*third color*/
+    color: rgb(247, 245, 243); /*text color light*/
+    color: rgb(37, 31, 24); /*text color dark*/
+    color: rgb(57, 170, 173); /*accent color*/
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(var(--main-grade2));
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 1.6rem;   
+    color: Blue; 
+}
+
+#header {
+    width: 100vw;
+    height: 7.5rem;
+    background-color: rgb(var(--main-color-dark));
+    color: rgb(var(--text-color-light));
+}
+
+#splash {
+    width: 100vw;
+    height: 30rem;
+    background-color: rgb(var(--main-color-medium));
+    color: rgb(var(--text-color-light));
+}
+
+#online-sect {
+    width: 100vw;
+    height: 30rem;
+    background-color: rgb(var(--main-color-medium));
+    color: rgb(var(--text-color-light));
+}
+
+#one-to-one-sect {
+    width: 100vw;
+    height: 30rem;
+    background-color: rgb(var(--main-color-light));
+    color: rgb(var(--text-color-dark));
+}
+
+#trans-sect {
+    width: 100vw;
+    height: 30rem;
+    background-color: rgb(var(--main-color-medium));
+    color: rgb(var(--text-color-light));
+}
+
+#footer {
+    width: 100vw;
+    height: 7.5rem;
+    background-color: rgb(var(--main-color-dark));
+    color: rgb(var(--text-color-light));
+}
