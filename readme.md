@@ -44,7 +44,9 @@ The nav bar will become transparant while scrolling.
 SHOW THE PAGE ON VARIOUS DEVICES.
 TALK ABOUT SHARING THE PAGE WITH SOME MODEL BUILDING FRIENDS FOR INPUT.
 ANY BUGS I HAD TO FIX
+
 Responsiveness was bad at first. Had to reorganize DIVs and change styling to use predominantly min-width rules.
+Links in socialwarning.html did not take user back to original page. Fixed.
 
 ###Validator Testing
 
