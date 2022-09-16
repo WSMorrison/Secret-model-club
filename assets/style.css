@@ -366,3 +366,28 @@ a:hover {
     color: rgb(var(--text-color));
     text-decoration: none;
 }
+
+@media only screen and (min-width: 576px) {
+    #trans-container {
+        width: 30rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #online-sect {
+        height: 155rem;
+        justify-content: space-evenly;
+    }
+
+    .online-img-container {
+        width: 50rem;
+        height: 50rem;
+    }
+    
+    .online-img {
+        width: 50rem;
+        height: 50rem;
+        position: relative;
+    }
+}
