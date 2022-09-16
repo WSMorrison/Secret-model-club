@@ -125,6 +125,23 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
+}
+
+.section-title-container {
+    width: 90vw;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-title-text {
+    color: rgb(var(--logo-color-dark));
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 3rem;
+    padding: 10px;
 }
 
 .online-feature {
@@ -196,8 +213,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
 }
-
 
 .one21-feature {
     width: 90vw;
@@ -261,16 +278,20 @@ a:hover {
 
 #trans-sect {
     position: relative;
-    top: 1.6rem;
+    top: 10rem;
     width: 100vw;
-    height: 30rem;
+    height: 10rem;
     background-color: rgb(var(--main-color-medium));
     color: rgb(var(--text-color-light));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 
 #footer {
     position: relative;
-    top: 1.6rem;
+    top: 16rem;
     width: 100vw;
     height: 7.5rem;
     background-color: rgb(var(--main-color-dark));
