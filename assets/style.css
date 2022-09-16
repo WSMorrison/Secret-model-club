@@ -278,20 +278,51 @@ a:hover {
 
 #trans-sect {
     position: relative;
-    top: 10rem;
+    top: 4.8rem;
     width: 100vw;
-    height: 10rem;
+    height: 30rem;
     background-color: rgb(var(--main-color-medium));
     color: rgb(var(--text-color-light));
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
+}
+
+#trans-container {
+    width: 90vw;
+}
+
+#form-container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trans-text {
+    text-align: center;
+}
+
+#checkbox-container-all {
+    width: 90wv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.checkbox-container-half {
+    width: 90wv;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 3rem;
 }
 
 #footer {
     position: relative;
-    top: 16rem;
+    top: 4.8rem;
     width: 100vw;
     height: 7.5rem;
     background-color: rgb(var(--main-color-dark));
