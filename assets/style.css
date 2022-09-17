@@ -388,6 +388,18 @@ a:hover {
 @media only screen and (min-width: 768px) {
     #splash-sect {
         height: 40vw;
+        max-height: 1000px;
+    }
+    #splash-logo {
+        height: 12vw;
+        width: calc(12vw * 1.7);
+        max-height: 500px;
+    }
+    #skrt-container {
+        font-size: 6vw;
+    }
+    #modl-klub-container {
+        font-size: 2.4vw;
     }
     .section-title-container {
         width: 90%;
