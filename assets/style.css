@@ -386,6 +386,13 @@ a:hover {
 }
     
 @media only screen and (min-width: 768px) {
+    #splash-sect {
+        height: 40vw;
+    }
+    .section-title-container {
+        width: 90%;
+        max-width: 80rem;
+    }
     #online-sect, #one21-sect {
         height: 180rem;
         justify-content: space-evenly;
