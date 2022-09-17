@@ -129,7 +129,7 @@ a:hover {
 }
 
 .section-title-container {
-    width: 90vw;
+    width: 90%;
     height: 4rem;
     display: flex;
     justify-content: flex-start;
@@ -375,40 +375,37 @@ a:hover {
     #trans-container {
         width: 30rem;
     }
-
-    .online-feature {
-        width: 60rem;
+    .online-feature, .one21-feature {
+        width: 52rem;
     }
-
-    .online-img-cover {
-        width: 60rem;
+    .online-img-cover, .one21-img-cover {
+        width: 52rem;
     }
 }
     
 @media only screen and (min-width: 768px) {
-
-    #online-sect {
+    #online-sect, #one21-sect {
         height: 180rem;
         justify-content: space-evenly;
         align-items: center;
     }
-
-    .online-feature {
+    .online-feature, .one21-feature {
         height: 50rem;
+        width: 90%;
+        max-width: 77rem;
     }
-
-    .online-img-container {
+    .online-img-container, .one21-img-container {
         width: 50rem;
         height: 50rem;
-    }
-    
-    .online-img {
+    }   
+    .online-img, .one21-img {
         width: 50rem;
         height: 50rem;
         position: relative;
     }
-
-    .online-img-cover {
-        width: 50%;
+    .online-img-cover, .one21-img-cover {
+        width: 90%;
+        max-width: 77rem;
     }
 }
+

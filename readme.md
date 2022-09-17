@@ -47,6 +47,7 @@ ANY BUGS I HAD TO FIX
 
 Responsiveness was bad at first. Had to reorganize DIVs and change styling to use predominantly min-width rules.
 Links in socialwarning.html did not take user back to original page. Fixed.
+Had a formatting bug as viewport changed size, found an issue with class selectors. Fixed.
 
 ###Validator Testing
 
