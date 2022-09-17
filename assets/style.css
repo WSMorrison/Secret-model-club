@@ -147,7 +147,7 @@ a:hover {
 }
 
 .online-feature {
-    width: 90vw;
+    width: 90%;
     height: 30rem;
     display: flex;
     align-items: center;
@@ -380,7 +380,7 @@ a:hover {
         width: 60rem;
     }
 
-    .online-image-cover {
+    .online-img-cover {
         width: 60rem;
     }
 }
@@ -398,7 +398,7 @@ a:hover {
     }
 
     .online-img-container {
-        max-width: 50rem;
+        width: 50rem;
         height: 50rem;
     }
     
@@ -408,7 +408,7 @@ a:hover {
         position: relative;
     }
 
-    .online-image-cover {
+    .online-img-cover {
         width: 50%;
     }
 }
