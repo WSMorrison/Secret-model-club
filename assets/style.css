@@ -80,7 +80,7 @@ a:hover {
 
 #splash-cover {
     width: 90vw;
-    height: calc(30rem * 0.90);
+    height: 27rem;
     display: flex;
     flex-direction: column;
 
@@ -389,6 +389,10 @@ a:hover {
     #splash-sect {
         height: 40vw;
         max-height: 1000px;
+    }
+    #splash-cover {
+        height: 36vw;
+        max-height: 900px;
     }
     #splash-logo {
         height: 12vw;
