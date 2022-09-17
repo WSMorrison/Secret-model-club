@@ -81,9 +81,10 @@ a:hover {
 #splash-cover {
     width: 90vw;
     height: calc(30rem * 0.90);
-    /*background-color:rgba(0, 255, 255, 0.2); diagnostic ----------------------------------------------------------------------*/
     display: flex;
     flex-direction: column;
+
+    /*background-color:rgba(0, 255, 255, 0.2); diagnostic*/
 }
 
 #splash-logo {
@@ -102,7 +103,8 @@ a:hover {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 5rem;
-    /*background-color: rgba(0, 17, 255, 0.2); diagnostic ----------------------------------------------------------------------*/
+
+    /*background-color: rgba(0, 17, 255, 0.2); diagnostic*/
 }
 
 #modl-klub-container {
@@ -112,7 +114,8 @@ a:hover {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 2rem;
-    /*background-color: rgba(0, 255, 34, 0.2); diagnostic ----------------------------------------------------------------------*/
+
+    /*background-color: rgba(0, 255, 34, 0.2); diagnostic*/
 }
 
 #online-sect {
@@ -135,7 +138,7 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
 
-    background-color: rgba(0, 255, 34, 0.2)
+    /*background-color: rgba(0, 255, 34, 0.2) diagnostic*/
 }
 
 .section-title-text {
@@ -152,7 +155,7 @@ a:hover {
     display: flex;
     align-items: center;
 
-    background-color: rgba(0, 255, 34, 0.2);
+    /*background-color: rgba(0, 255, 34, 0.2); diagnostic*/
 }
 
 .online-img-container {
@@ -175,7 +178,7 @@ a:hover {
     align-items: flex-end;
     justify-content: space-around;
 
-    background-color: rgba(226, 43, 67, 0.5);
+    /*background-color: rgba(226, 43, 67, 0.5); diagnostic*/
 }
 
 .online-title {
@@ -223,10 +226,11 @@ a:hover {
 .one21-feature {
     width: 90%;
     height: 30rem;
-    /*background-color: rgba(0, 255, 34, 0.2); diagnostic -------------------------------------------------------------------*/
     display: flex;
     align-items: center;
     justify-content: end;
+
+    /*background-color: rgba(0, 255, 34, 0.2); diagnostic*/
 }
 
 .one21-img-container {
@@ -243,12 +247,13 @@ a:hover {
 .one21-img-cover {
     width: 90%;
     height: 25rem;
-    /*background-color: rgba(226, 43, 67, 0.5); diagnostic -----------------------------------------------------------------*/
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+
+    /*background-color: rgba(226, 43, 67, 0.5); diagnostic*/
 }
 
 .one21-title {
@@ -271,9 +276,6 @@ a:hover {
     height: 15rem;
     background-color: rgba(var(--main-color-medium), 0.9);
     z-index: 5;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .one21-text > p {
