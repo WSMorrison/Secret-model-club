@@ -2,6 +2,8 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
 }
 
 :root {
@@ -29,7 +31,7 @@ html {
 
 body {
     width: 100%;
-    background-color: rgb(var(--main-grade2));
+    background-color: rgb(var(--main-color-dark));
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 1.6rem;   
     color: Blue; 
@@ -42,7 +44,8 @@ a:hover {
 #header {
     width: 100%;
     height: 7.5rem;
-    background-color: rgb(var(--main-color-dark));
+    background-color: rgba(var(--main-color-dark), 0.6);
+    backdrop-filter: blur(5px);
     color: rgb(var(--text-color-light));
     display: flex;
     justify-content: center;
@@ -90,7 +93,7 @@ a:hover {
 #splash-logo {
     width: 17rem;
     height: 10rem;
-    background-color: rgba(var(--main-color-dark), 0.8);
+    background-color: rgba(var(--main-color-dark), 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,7 +187,8 @@ a:hover {
 .online-title {
     width: 20rem;
     height: 5rem;
-    background-color: rgba(var(--main-color-dark), 0.8);
+    background-color: rgba(var(--main-color-dark), 0.6);
+    backdrop-filter: blur(5px);
     z-index: 5;
     display: flex;
     align-items: center;
@@ -199,7 +203,8 @@ a:hover {
 .online-text {
     width: 20rem;
     height: 15rem;
-    background-color: rgba(var(--main-color-dark), 0.8);
+    background-color: rgba(var(--main-color-dark), 0.6);
+    backdrop-filter: blur(5px);
     z-index: 5;
     display: flex;
     align-items: center;
@@ -259,7 +264,8 @@ a:hover {
 .one21-title {
     width: 20rem;
     height: 5rem;
-    background-color: rgba(var(--main-color-medium), 0.8);
+    background-color: rgba(var(--main-color-medium), 0.6);
+    backdrop-filter: blur(5px);
     z-index: 5;
     display: flex;
     align-items: center;
@@ -274,7 +280,8 @@ a:hover {
 .one21-text {
     width: 20rem;
     height: 15rem;
-    background-color: rgba(var(--main-color-medium), 0.9);
+    background-color: rgba(var(--main-color-medium), 0.6);
+    backdrop-filter: blur(5px);
     z-index: 5;
 }
 
@@ -386,6 +393,9 @@ a:hover {
 }
     
 @media only screen and (min-width: 768px) {
+    #nav-container {
+        width: 50%;
+    }
     #splash-sect {
         height: 40vw;
         max-height: 1000px;
