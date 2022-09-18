@@ -148,7 +148,7 @@ a:hover {
     /*background-color: rgba(60, 255, 0, 0.2) /*diagnostic*/
 }
 
-.section-title-text {
+.section-title-text > h3 {
     color: rgb(var(--logo-color-dark));
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
@@ -199,7 +199,7 @@ a:hover {
     justify-content: center;
 }
 
-.online-title > h3 {
+.online-title > h4 {
     font-size: 2rem;
     font-weight: 200;
 }
@@ -276,7 +276,7 @@ a:hover {
     justify-content: center;
 }
 
-.one21-title > h3 {
+.one21-title > h4 {
     font-size: 2rem;
     font-weight: 200;
 }
@@ -349,7 +349,7 @@ a:hover {
 }
 
 #checkbox-container-all {
-    width: 90wv;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,7 +357,7 @@ a:hover {
 }
 
 .checkbox-container-half {
-    width: 90wv;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -423,7 +423,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 576px) {
-    #trans-container {
+    #trans-container, #checkbox-container-all, .checkbox-container-half {
         width: 30rem;
     }
     .online-feature, .one21-feature {
@@ -509,7 +509,7 @@ a:hover {
         width: 35rem;
     }
 
-    .online-title > h3, .one21-title > h3 {
+    .online-title > h4, .one21-title > h4 {
         font-size: 4rem;
     }
 
