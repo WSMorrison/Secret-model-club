@@ -377,11 +377,12 @@ a:hover {
 
 #no-socials-sect {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#no-socials-sect * {
+#no-socials-container * {
     background-color: rgb(var(--main-color-medium)) !important; 
 }
 
@@ -389,12 +390,22 @@ a:hover {
     position: relative;
     top: 6.6rem;
     width: 100%;
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 15rem);
     background-color: rgb(var(--main-color-medium));
-    color: rgb(var(--text-color-light));
+    font-size: 2rem;
+    color: rgb(var(--text-color-dark));
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+
+#no-socials {
+    width: 100rem;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
