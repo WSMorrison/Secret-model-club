@@ -209,7 +209,7 @@ a:hover {
     height: 15rem;
     background-color: rgba(var(--main-color-dark), 0.6);
     backdrop-filter: blur(5px);
-    z-index: 5;
+    z-index: 50;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +286,10 @@ a:hover {
     height: 15rem;
     background-color: rgba(var(--main-color-medium), 0.6);
     backdrop-filter: blur(5px);
-    z-index: 5;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .one21-text > p {
@@ -459,6 +462,30 @@ a:hover {
         background-size: cover;
         height: 40vw;
         max-height: 45rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .online-img-cover, .one21-img-cover {
+        height: 50rem;
+    }
+    .online-title, .one21-title {
+        height: 10rem;
+        width: 35rem;
+    }
+
+    .online-title > h3, .one21-title > h3 {
+        font-size: 4rem;
+    }
+
+    .online-text, .one21-text {
+        height: 22.5rem;
+        width: 35rem;
+    }
+
+    .online-text > p, .one21-text > p {
+        font-size: 2rem;
+        padding: 2rem;
     }
 }
 
