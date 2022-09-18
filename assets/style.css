@@ -4,6 +4,8 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 8rem;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -34,7 +36,9 @@ body {
     background-color: rgb(var(--main-color-dark));
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 1.6rem;   
-    color: Blue; 
+    color: Blue;
+    margin: 0;
+    padding: 0;
 }
 
 a:hover {
@@ -51,7 +55,7 @@ a:hover {
     justify-content: center;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 100;
 }
 
 #nav-container {
@@ -407,7 +411,6 @@ a:hover {
     #splash-logo {
         height: 12vw;
         width: calc(12vw * 1.7);
-        max-height: 500px;
     }
     #skrt-container {
         font-size: 6vw;
@@ -441,6 +444,21 @@ a:hover {
     .online-img-cover, .one21-img-cover {
         width: 90%;
         max-width: 77rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #splash-sect {
+        background: url(../assets/images/Splash_Alfa_Romeo_blur.jpg) center;
+        background-size: cover;
+        max-height: 45rem;
+    }
+    #splash-cover {
+
+        background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
+        background-size: cover;
+        height: 40vw;
+        max-height: 45rem;
     }
 }
 
