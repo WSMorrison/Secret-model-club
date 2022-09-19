@@ -36,6 +36,9 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The online section includes a link to the Discord server for user navigation.
         -The text is in translucent boxes that blur the backdrop so they can maintain the interest of the images but can keep the text legible.
         -The images, text, and text boxes are responsive to different screen size.
+
+![Screenshot showing some of the Online and One:One sections on a small screen, highlighting the responsiveness, nav bar scrolling and text over image coverage.](/assets/images/readme-images/Nav_bar_text_boxes_styled_and_responsive_scrngrb.png)
+
     -One:One section
         -1:1 is scale notation for full size (as opposed to 1:24, a common model car scale) and in this case indicates in person club activities.
         -The One:One section includes images to indicate what the user can expect by particiating in person.
@@ -46,8 +49,9 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The One:One section includes a link to a Google Maps page showing where the in person meetings are held.
         -The text is in translucent boxes that blur the backdrop so they can maintain the interest of the images but can keep the text legible.
         -The images, text, and text boxes are responsive to different screen size.
+        -There is an embeded map from Google maps so user can find the location of the in person meetings.
 
-![Screenshot showing some of the Online and One:One sections on a small screen, highlighting the responsiveness, nav bar scrolling and text over image coverage.](/assets/images/readme-images/Nav_bar_text_boxes_styled_and_responsive_scrngrb.png)
+![Screenshot showing the emebeded Google Maps map in the 1:1 section.](/assets/images/readme-images/Embeded_map_scrngrb.png)
 
     -Transmissions section
         -The Transmissions section is where the site can capture user information for an email newsletter.
