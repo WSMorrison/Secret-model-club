@@ -87,6 +87,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -Images in the Online and One:One sections did not work. I found that the images were using relative address instead of absolute. Changed the src= code.
         -Links to sections in the navigation bar did not all work. While troubleshooting I found that I had changed the section id= naming convention but did not update the links in the navigation bar. Updated all the links to correct section id attributes.
         -Found the socials-warning page had a responsiveness error. Troubleshooting found that I had set the width for #socials-warning-container to 100rem instead of 100%. Changed the width code to a responsive dimension.
+        -Found that the embeded map could not be interacted with - link and zoom would not work. Troubleshooting found that a covering div makes it impossible to interact with. Changed z-index for map so that it was over the cover div but below the title and text divs.
     -Unsolved bugs:
         -There are no known unsolved bugs.
     -Validator testing:
