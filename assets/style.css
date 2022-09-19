@@ -20,6 +20,14 @@ html {
     --accent-color: 57, 170, 173;
 }
 
+:required:invalid {
+    color: rgb(var(--logo-color-dark));
+}
+
+:required:focus {
+    outline: none;
+}
+
 .text-color-test-area {
     color: rgb(105, 103,101); /*main color dark*/
     color: rgb(175,173,172); /*main color medium*/
