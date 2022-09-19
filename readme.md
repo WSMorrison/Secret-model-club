@@ -8,6 +8,8 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
 
 [SKRT modl klub ain't got no socials](https://wsmorrison.github.io/Secret-model-club/socialswarning.html)
 
+![Screenshot of webpage displayed on different devices.](/assets/images/responsiveness_scrngrb.png)
+
 ## Features
 
     -Navigation bar
@@ -22,6 +24,9 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The website name is in a translucent box over the image.
         -The splash image and the translucent box are responsive to different screen sizes.
         -The slash image grows to a maximum size to maintain resolution and is set over a responsive, blurred background of the same image on very large screens.
+
+![Screenshot of navigation bar and splash image.](/assets/images/Nav_bar_splash_scrngrb.png)
+
     -Online section
         -The online section includes images to indicate what the user can expect by participating online.
         -The images have text to add context.
@@ -41,6 +46,9 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The One:One section includes a link to a Google Maps page showing where the in person meetings are held.
         -The text is in translucent boxes that blur the backdrop so they can maintain the interest of the images but can keep the text legible.
         -The images, text, and text boxes are responsive to different screen size.
+
+![Screenshot showing some of the Online and One:One sections on a small screen, highlighting the responsiveness, nav bar scrolling and text over image coverage.](/assets/images/Nav_bar_text_boxes_styled_and_responsive_scrngrb.png)
+
     -Transmissions section
         -The Transmissions section is where the site can capture user information for an email newsletter.
         -There are checkboxes so users can indicate as many related interests as they like, including none.
@@ -50,10 +58,15 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The footer includes font based logos to link to Discord and potentially other social media.
         -The Discord logo links to the SKRT modl klub Discord server.
         -The Facebook, Instagram, and Twitter links link to another internal page that indicates that there is no social media presence.
+
+![Screenshot of the Transmissions section and form, as well as the footer with "social media links."](/assets/images/transmissions_social_footer_scrngrb.png)
+
     -"SKRT modl klub ain't got no socials."
         -This second page indicates that there is no social media presence for the club.
         -The page includes the same header nav bar that can take the user back to the main page, or the appropriate section of the main page.
         -It also has a similar footer that takes user back to the top section of the same page, without refreshing it.
+
+![Screesnhot of the entire page highlighting that the club does not have a social media presence.](/assets/images/no_socials_scrngrb.png)
 
 ## Testing
 
