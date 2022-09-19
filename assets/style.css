@@ -247,6 +247,15 @@ a:hover {
     justify-content: end;
 }
 
+#one21-feature-map {
+    width: 90%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+}
+
 .one21-img-container {
     width: 25rem;
     height: 25rem;
@@ -265,6 +274,16 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
+}
+
+#one21-map-cover {
+    width: 90%;
+    height: 25rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-around;
 }
 
@@ -303,6 +322,32 @@ a:hover {
     width: 25rem; 
     height: 25rem;
     border: 0;
+}
+
+#one21-title-map {
+    width: 20rem;
+    height: 5rem;
+    background-color: rgba(var(--main-color-medium), 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#one21-text-map {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgba(var(--main-color-medium), 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#one21-text-map > p {
+    text-align: center;
 }
 
 #one21-location {
@@ -433,10 +478,10 @@ a:hover {
     #trans-container, #checkbox-container-all, .checkbox-container-half {
         width: 30rem;
     }
-    .online-feature, .one21-feature {
+    .online-feature, .one21-feature, #one21-feature-map {
         width: 52rem;
     }
-    .online-img-cover, .one21-img-cover {
+    .online-img-cover, .one21-img-cover, #one21-map-cover {
         width: 52rem;
     }
 }
@@ -472,15 +517,18 @@ a:hover {
         justify-content: space-evenly;
         align-items: center;
     }
-
     #one21-sect {
-        height: 230rem;
+        height: 205rem;
         justify-content: space-evenly;
         align-items: center;
     }   
-
     .online-feature, .one21-feature {
         height: 50rem;
+        width: 90%;
+        max-width: 77rem;
+    }
+    #one21-feature-map {
+        height: 25rem;
         width: 90%;
         max-width: 77rem;
     }
@@ -493,14 +541,14 @@ a:hover {
         height: 50rem;
         position: relative;
     }
-    .online-img-cover, .one21-img-cover {
+    .online-img-cover, .one21-img-cover, #one21-map-cover {
         width: 90%;
         max-width: 77rem;
     }
 
     #map-embed {
         width: 50rem;
-        height: 50rem;
+        height: 25rem;
     }
 }
 
