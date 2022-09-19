@@ -89,6 +89,8 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -No CSS errors were found using W3 schools CSS Jigsaw validator.
         -Accessibility scored well in Chrome developer tools Lighthouse tool, and I confirmed that colors and contrast maintain good visibility.
 
+![Screengrab of Google developer tools Lighthouse validator result.](/assets/images/validator_test.png)
+
 ## Deployment:
 
     -The page is deployed on Github pages using the following procedure:
@@ -107,6 +109,8 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -Rubik Dirt [Google Fonts.](https://fonts.google.com/)
         -Palanquin Dark from [Google Fonts.](https://fonts.google.com/)
     -Font-based logos for Discord, map, and social media links are from [Font Awesome.](fontawesome.com)
+    -Readme.md image showing webpage across different devices from [Am I Responsive?](https://ui.dev/amiresponsive)
+    -Readme.md image showing Google developer tools Lighthouse validator result is from Google Chrom browser.
 
 ## Media
 
