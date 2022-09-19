@@ -70,10 +70,11 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
 
 ## Testing
 
--I confirmed that the wesbite works, looks good, and maintains clarity and functionality on different sized devices and at different sizes by using Chrome developer tools, as well as using the site on multiple devices.
--I confirmed that the links in the navigation bar, the "social media" footer, and in the content sections are clear, legible, and take users to the appropriate address.
--I confirmed that the site is intuitive and works properly by having a hanful of testers interact with the site on different divices, in different places, and with different use cases.
--I confirmed that the form works properly, and requires an email for submission.
+    -I confirmed that the wesbite works, looks good, and maintains clarity and functionality on different sized devices and at different sizes by using Chrome developer tools, as well as using the site on multiple devices.
+    -I confirmed that the links in the navigation bar, the "social media" footer, and in the content sections are clear, legible, and take users to the appropriate address.
+    -I confirmed that the site is intuitive and works properly by having a hanful of testers interact with the site on different divices, in different places, and with different use cases.
+    -I confirmed that the form works properly, and requires an email for submission.
+    -I replaced the picture in the On The Bench feature in the Online Sections to improve site load performance.
 
 ## Bugs
 
