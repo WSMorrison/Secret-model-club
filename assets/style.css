@@ -545,10 +545,27 @@ a:hover {
         width: 90%;
         max-width: 77rem;
     }
-
     #map-embed {
         width: 50rem;
         height: 25rem;
+    }
+    .online-img-cover, .one21-img-cover {
+        height: 50rem;
+    }
+    .online-title, .one21-title {
+        height: 10rem;
+        width: 35rem;
+    }
+    .online-title > h4, .one21-title > h4 {
+        font-size: 4rem;
+    }
+    .online-text, .one21-text {
+        height: 22.5rem;
+        width: 35rem;
+    }
+    .online-text > p, .one21-text > p {
+        font-size: 2rem;
+        padding: 2rem;
     }
 }
 
