@@ -28,17 +28,6 @@ html {
     outline: none;
 }
 
-.text-color-test-area {
-    color: rgb(105, 103,101); /*main color dark*/
-    color: rgb(175,173,172); /*main color medium*/
-    color: rgb(235,234,234); /*main color light*/
-    color: rgb(192, 53, 47); /*logo color dark*/
-    color: rgb(197, 164, 131); /*logo color light*/
-    color: rgb(247, 245, 243); /*text color light*/
-    color: rgb(14, 11, 9); /*text color dark*/
-    color: rgb(57, 170, 173); /*accent color*/
-}
-
 body {
     width: 100%;
     background-color: rgb(var(--main-color-dark));
@@ -98,8 +87,6 @@ a:hover {
     height: 27rem;
     display: flex;
     flex-direction: column;
-
-    /*background-color:rgba(0, 255, 255, 0.2); /*diagnostic*/
 }
 
 #splash-logo {
@@ -118,8 +105,6 @@ a:hover {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 5rem;
-
-    /*background-color: rgba(0, 17, 255, 0.2); /*diagnostic*/
 }
 
 #modl-klub-container {
@@ -129,8 +114,6 @@ a:hover {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 2rem;
-
-    /*background-color: rgba(0, 255, 34, 0.2); /*diagnostic*/
 }
 
 #online-sect {
@@ -152,8 +135,6 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
-    /*background-color: rgba(60, 255, 0, 0.2) /*diagnostic*/
 }
 
 .section-title-text > h3 {
@@ -169,8 +150,6 @@ a:hover {
     height: 30rem;
     display: flex;
     align-items: center;
-
-    /*background-color: rgba(0, 255, 34, 0.2); /*diagnostic*/
 }
 
 .online-img-container {
@@ -192,8 +171,6 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-
-    /*background-color: rgba(226, 43, 67, 0.5); /*diagnostic*/
 }
 
 .online-title {
@@ -233,8 +210,6 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-   /*background-color: rgba(165, 42, 42, 0.2); /*diagnostic*/
 }
 
 #online-location-container{
@@ -270,8 +245,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: end;
-
-    /*background-color: rgba(0, 255, 34, 0.2); /*diagnostic*/
 }
 
 .one21-img-container {
@@ -293,8 +266,6 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-
-    /*background-color: rgba(226, 43, 67, 0.5); /*diagnostic*/
 }
 
 .one21-title {
@@ -334,8 +305,6 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-   /*background-color: rgba(165, 42, 42, 0.2); /*diagnostic*/
 }
 
 #one21-location-container {
