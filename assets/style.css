@@ -230,7 +230,7 @@ a:hover {
     position: relative;
     top: 4.8rem;
     width: 100%;
-    height: 100rem;
+    height: 130rem;
     background-color: rgb(var(--main-color-light));
     color: rgb(var(--text-color-dark));
     display: flex;
@@ -297,6 +297,12 @@ a:hover {
 
 .one21-text > p {
     text-align: center;
+}
+
+#map-embed {
+    width: 25rem; 
+    height: 25rem;
+    border: 0;
 }
 
 #one21-location {
@@ -461,11 +467,18 @@ a:hover {
         width: 90%;
         max-width: 80rem;
     }
-    #online-sect, #one21-sect {
+    #online-sect {
         height: 180rem;
         justify-content: space-evenly;
         align-items: center;
     }
+
+    #one21-sect {
+        height: 230rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }   
+
     .online-feature, .one21-feature {
         height: 50rem;
         width: 90%;
@@ -483,6 +496,11 @@ a:hover {
     .online-img-cover, .one21-img-cover {
         width: 90%;
         max-width: 77rem;
+    }
+
+    #map-embed {
+        width: 50rem;
+        height: 50rem;
     }
 }
 
