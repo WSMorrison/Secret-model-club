@@ -95,7 +95,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -No CSS errors were found using W3 schools CSS Jigsaw validator.
         -Accessibility scored well in Chrome developer tools Lighthouse tool, and I confirmed that colors and contrast maintain good visibility.
 
-![Screengrab of Google developer tools Lighthouse validator result.](/assets/images/readme-images/validator_test.png)
+![Screengrab of Google developer tools Lighthouse validator result.](/assets/images/readme-images/Lighthouse_test.png)
 
 ## Deployment:
 
