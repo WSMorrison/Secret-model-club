@@ -75,7 +75,7 @@ a:hover {
     height: 30rem;
     background-color: rgb(var(--main-color-medium));
     color: rgb(var(--text-color-light));
-    background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
+    background: url(../assets/images/Splash_Alfa_Romeo_2000x.webp) center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -550,12 +550,12 @@ a:hover {
 
 @media only screen and (min-width: 992px) {
     #splash-sect {
-        background: url(../assets/images/Splash_Alfa_Romeo_blur.jpg) center;
+        background: url(../assets/images/Splash_Alfa_Romeo_blur.webp) center;
         background-size: cover;
         max-height: 45rem;
     }
     #splash-cover {
-        background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
+        background: url(../assets/images/Splash_Alfa_Romeo_2000x.webp) center;
         background-size: cover;
         height: 35vw;
         max-height: 42.5rem;
