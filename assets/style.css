@@ -12,13 +12,25 @@ html {
     --main-color-dark: 105, 103, 101;
     --main-color-medium: 175, 173, 172;
     --main-color-light: 235, 234, 234;
-    --logo-color-dark: 192, 53, 47;
+    --logo-color-dark: 160, 40, 36;
     --logo-color-light: 197, 164, 131;
     --text-color-light: 247, 245, 243;
     --text-color-dark: 37, 31, 24;
     --text-color-dark2: 14, 11, 9;
     --accent-color: 57, 170, 173;
 }
+
+/*.color-test-area {
+    color: rgb(105, 103, 101);
+    color: rgb(175, 173, 172);
+    color: rgb(235, 234, 234);
+    color: rgb(160, 40, 36);
+    color: rgb(197, 164, 131);
+    color: rgb(247, 245, 243);
+    color: rgb(37, 31, 24);
+    color: rgb(14, 11, 9);
+    color: rgb(57, 170, 173);
+} Area for adjusting colors */
 
 :required:invalid {
     color: rgb(var(--logo-color-dark));
@@ -33,7 +45,7 @@ body {
     background-color: rgb(var(--main-color-dark));
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 1.6rem;   
-    color: Blue;
+    color: rgb(var(--logo-color-dark));
     margin: 0;
     padding: 0;
 }
