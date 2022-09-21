@@ -13,7 +13,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
 ## Features
 
     -Navigation bar
-        -A navigation bar stays fixed to the to of the page as the user scrolls through the page.
+        -A navigation bar stays fixed to the top of the page as the user scrolls through the page.
         -The links in the bar link to different sections of the site, allowing the user to quickly and easily find the information they need.
         -The links stay centered responsively to keep a consistent look.
         -The navigation bar is translucent and blurs the backdrop to maintain clarity about where user is on the page.
@@ -23,7 +23,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -The website name is in a color and font that is reminiscent of rubber stamps on manila folders indicating that things are secret.
         -The website name is in a translucent box over the image.
         -The splash image and the translucent box are responsive to different screen sizes.
-        -The slash image grows to a maximum size to maintain resolution and is set over a responsive, blurred background of the same image on very large screens.
+        -The splash image grows to a maximum size to maintain resolution and is set over a responsive, blurred background of the same image on very large screens.
 
 ![Screenshot of navigation bar and splash image.](/assets/images/readme-images/Nav_bar_splash_scrngrb.png)
 
@@ -34,7 +34,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
             -Users can share and discuss what they are working on, and what other members are working on.
             -Users can discuss new, rare, and interesting kits, parts, tools, items, and objects they have acquired, want to git rid of, or just want to show off.
         -The online section includes a link to the Discord server for user navigation.
-        -The text is in translucent boxes that blur the backdrop so they can maintain the interest of the images but can keep the text legible.
+        -The text is in translucent boxes that blur the backdrop so they can maintain the interest of the images but keep the text legible.
         -The images, text, and text boxes are responsive to different screen size.
 
 ![Screenshot showing some of the Online and One:One sections on a small screen, highlighting the responsiveness, nav bar scrolling and text over image coverage.](/assets/images/readme-images/Nav_bar_text_boxes_styled_and_responsive_scrngrb.png)
@@ -105,7 +105,7 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
         -In the settings tab, I navigated to the pages link in the lefthand navigation bar.
         -I deployed the Master Branch as the source.
         -Github provided the link to the completed website.
-    -The deployed site can be found at this link: [SKRT modl klub](https://wsmorrison.github.io/Secret-model-club/)
+    -The deployed site can be found at this link: https://wsmorrison.github.io/Secret-model-club/
 
 ## Credits
 
@@ -113,19 +113,20 @@ Users of the SKRT modl klub website will be able to find links to the appropriat
     -Many pieces of code are inspired by Code Institute training, W3 schools resources, Stack Overflow forums, and other searchable online resources.
     -Adam Boczek in the UCD July 2022 cohort helped with code to animate scrolling and clear sections when using the navigation bar.
     -The fonts used on this website are:
-        -Rubik Dirt [Google Fonts.](https://fonts.google.com/)
-        -Palanquin Dark from [Google Fonts.](https://fonts.google.com/)
-    -Font-based logos for Discord, map, and social media links are from [Font Awesome.](fontawesome.com)
-    -Embeded map is basis for the code is from [Google Maps.](https://www.google.com/maps/)
-    -Readme.md image showing webpage across different devices from [Am I Responsive?](https://ui.dev/amiresponsive)
-    -Readme.md image showing Google developer tools Lighthouse validator result is from Google Chrom browser.
+        -Rubik Dirt, from Google Fonts, https://fonts.google.com/
+        -Palanquin Dark, from Google Fonts, https://fonts.google.com/
+    -Font-based logos for Discord, map, and social media links are from Font Awesome, fontawesome.com
+    -Embeded map and basis for the code is from Google Maps, https://www.google.com/maps/
+    -Readme.md image showing webpage across different devices from Am I Responsive?, https://ui.dev/amiresponsive
+    -Readme.md image showing Google developer tools Lighthouse validator result is from Google Chrome browser.
 
 ## Media
 
     -Photos are by the developer, unless otherwise noted.
     -The following photos from other sources were used for educational and training purposes only:
-        -The photo associated with Modeling News is taken from The Modeling News. The source can be found [here.](https://www.themodellingnews.com/2019/05/tmn-on-tour-japans-58th-shizuoka-hobby.html)
-        -The photo associated with Station Meetings is taken from the Alexander City Outlook. The source can be found [here.](https://www.alexcityoutlook.com/news/fight-breaks-out-at-city-hall-after-council-meeting/article_9bc75cd2-77a7-5865-bd32-e8c34bbc94a5.html)
-        -The photo associated with Beer of the Month is taken from Twitter, user @Beerdo_El. The source can be found [here.](https://mobile.twitter.com/hashtag/workbenchipa?src=hash)
-        -The photo associated with Stash Adjustment is taken from Intscalemodeller.com user DRUMS01. The source can be found [here.](https://intscalemodeller.com/viewtopic.php?t=28144)
+        -The photo associated with Modeling News is taken from The Modeling News. The source can be found at https://www.themodellingnews.com/2019/05/tmn-on-tour-japans-58th-shizuoka-hobby.html
+        -The photo associated with Station Meetings is taken from the Alexander City Outlook. The source can be found at https://www.alexcityoutlook.com/news/fight-breaks-out-at-city-hall-after-council-meeting/article_9bc75cd2-77a7-5865-bd32-e8c34bbc94a5.html
+        -The photo associated with Beer of the Month is taken from Twitter, user @Beerdo_El. The source can be found at https://mobile.twitter.com/hashtag/workbenchipa?src=hash
+        -The photo associated with Stash Adjustment is taken from Intscalemodeller.com user DRUMS01. The source can be found at https://intscalemodeller.com/viewtopic.php?t=28144
 
+This webpage is for educational and training purposes only.
